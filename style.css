@@ -1,0 +1,40 @@
+.light {
+    background-color: #fcfcfc;
+    color: #46237a;
+}
+
+.dark {
+    background-color: #46237a;
+    color: #fcfcfc;
+}
+
+
+body {
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+p {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    background-color: #ff495c;
+    border: none;
+    color: #fcfcfc;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Fira Code', monospace;
+}
+
+#theme-button {
+    position: fixed;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+}
